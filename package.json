@@ -1,0 +1,48 @@
+{
+	"name": "@gtamo/cli-check-node",
+	"version": "1.0.0",
+	"description": "Check the installed Node.js version and exit as per the required Node.js version.",
+	"exports": "./dist/index.js",
+	"type": "module",
+	"keywords": [
+		"cli-check-node",
+		"Tamas Molnar",
+		"gtamasmolnar"
+	],
+	"repository": {
+		"type": "git",
+		"url": "gtamasmolnar/cli-check-node"
+	},
+	"author": "Tamas Molnar",
+	"license": "MIT",
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"chalk": "^5.2.0",
+		"log-symbols": "^5.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.3",
+		"@typescript-eslint/eslint-plugin": "5.55.0",
+		"@typescript-eslint/parser": "5.55.0",
+		"eslint": "^8.36.0",
+		"eslint-config-async": "^2.0.1",
+		"eslint-config-prettier": "^8.7.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"prettier": "2.8.5",
+		"ts-node": "^10.9.1",
+		"typescript": "^4.9.5"
+	},
+	"engines": {
+		"node": ">=18.0.0",
+		"npm": ">=9.0.0"
+	},
+	"scripts": {
+		"build": "tsc",
+		"test": "node ./dist/test.js",
+		"lint": "eslint . --ext .ts"
+	}
+}
