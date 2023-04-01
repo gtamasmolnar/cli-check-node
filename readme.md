@@ -29,7 +29,7 @@ Type: `string`<br>
 Type: `object`<br>
 Default: `{fail: true}` (optional)
 
-You can specify the options below.
+You can specify the options below..
 
 #### ❯ fail
 

@@ -1,8 +1,11 @@
 {
-	"name": "@gtamo/cli-check-node",
-	"version": "1.0.0",
+	"name": "@gtamasmolnar/cli-check-node",
+	"version": "1.0.2",
 	"description": "Check the installed Node.js version and exit as per the required Node.js version.",
 	"exports": "./dist/index.js",
+		"publishConfig": {
+		"registry": "https://npm.pkg.github.com/@gtamasmolnar"
+	},
 	"type": "module",
 	"keywords": [
 		"cli-check-node",
